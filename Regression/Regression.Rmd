@@ -61,6 +61,7 @@ ggplot(data = Default, aes(x = balance, y = income, colour = default)) +
   geom_point(alpha = 0.8) + 
   theme_bw() + 
   scale_color_brewer(palette=7)
+#Default = darker colors
 ```
 
 ```{r}
